@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showWhouses(View view){
         if(view != null){
+            //articles.setText("Warhouses");
             JsonArrayRequest request = new JsonArrayRequest(url2,jsonArrayListenerWarehouses,errorListener);
             requestQueue.add(request);
         }
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
             }
+            articles.setText("Articles");
             for(String row:data){
                 String currTxt = articles.getText().toString();
                 articles.setText(currTxt+"\n\n"+row);
@@ -82,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
         }
+            articles.setText("Warhouses");
             for(String row:data){
                 String currTxt = articles.getText().toString();
                 articles.setText(currTxt+"\n\n"+row);

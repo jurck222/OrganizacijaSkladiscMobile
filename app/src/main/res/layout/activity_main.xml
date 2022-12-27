@@ -26,7 +26,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="208dp"
+        android:layout_marginStart="172dp"
         android:onClick="showWhouses"
         android:text="Show Warehouses"
         app:layout_constraintStart_toStartOf="parent"
