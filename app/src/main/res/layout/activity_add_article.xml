@@ -7,10 +7,10 @@
     tools:context=".AddArticleActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:orientation="vertical"
@@ -21,7 +21,7 @@
 
         <EditText
             android:id="@+id/code"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
@@ -31,7 +31,7 @@
 
         <EditText
             android:id="@+id/desc"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
@@ -40,7 +40,7 @@
 
         <EditText
             android:id="@+id/quantity"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
@@ -49,7 +49,7 @@
 
         <Button
             android:id="@+id/submit"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
@@ -57,7 +57,7 @@
 
         <TextView
             android:id="@+id/status"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="77dp"
             android:layout_gravity="center"
             android:text="TextView" />
